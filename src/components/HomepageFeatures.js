@@ -20,22 +20,22 @@ const FeatureList = [
         Blog section lets you focus on the goals and the route to gain progress in coding area.
       </>
     ),
-  }
-  // {
-  //   title: 'Powered by React',
-  //   Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
-  //   description: (
-  //     <>
-  //       Extend or customize your website layout by reusing React. Docusaurus can
-  //       be extended while reusing the same header and footer.
-  //     </>
-  //   ),
-  // },
+  },
+  {
+    title: 'Build with your own hands',
+    Svg: require('../../static/img/didit.svg').default,
+    description: (
+      <>
+        “You don’t learn to walk by following rules. You learn by doing, and by falling over.”
+        —Richard Branson
+      </>
+    ),
+  },
 ];
 
 function Feature({Svg, title, description}) {
   return (
-    <div className={clsx('col col--6')}>
+    <div className={clsx('col col--4')}>
       <div className="text--center">
         <Svg className={styles.featureSvg} alt={title} />
       </div>

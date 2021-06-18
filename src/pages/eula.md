@@ -7,7 +7,7 @@ sidebar_position: 10000
 ## End-User License Agreement (&quot;Agreement&quot;)
 Last updated: June 18, 2021<br/>
 Please read this End-User License Agreement carefully before using ASAFARIM (the website).
-
+ 
 ## Interpretation and Definitions
 ### Interpretation 
 The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.
@@ -97,4 +97,4 @@ You may be subject to additional terms and conditions that apply when You use or
 ## Contact Us
 If you have any questions about this Agreement, You can contact Us:
 
-By visiting this page on our website: <a href="test/contact" rel="external nofollow noopener" target="_blank">contact</a>
+By visiting this page on our website: <a href="/contact" rel="external nofollow noopener" target="_blank">contact</a>

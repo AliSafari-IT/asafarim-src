@@ -8,7 +8,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'ASAFARIM-IT', // Usually your GitHub org/user name.
-  projectName: 'my-asafarim-site', // Usually your repo name.
+  projectName: 'asafarim-src', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'ASAFARIM',
@@ -30,7 +30,7 @@ module.exports = {
           position: 'right',
         },
         {
-          type:'doc', docId:'eula', position:'right', label:"EULA"
+          to:'/eula', position:'right', label:"EULA"
         },
       ],
     },
@@ -89,13 +89,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/AliSafari-IT/my-asafarim-site',
+            'https://github.com/AliSafari-IT/asafarim-src/blob/main',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/AliSafari-IT/my-asafarim-site',
+            'https://github.com/AliSafari-IT/asafarim-src/blob/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
