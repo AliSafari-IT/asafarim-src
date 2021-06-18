@@ -97,4 +97,4 @@ You may be subject to additional terms and conditions that apply when You use or
 ## Contact Us
 If you have any questions about this Agreement, You can contact Us:
 
-By visiting this page on our website: <a href="/contact" rel="external nofollow noopener" target="_blank">contact</a>
+By visiting this page on our website: <a href="/contact/index.html" rel="external nofollow noopener" target="_blank">contact</a>
