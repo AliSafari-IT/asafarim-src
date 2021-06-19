@@ -13,3 +13,5 @@ Topics that are covered in this section are as follows.
  ###  • **[Json Schema](/docs/json-topic/json-schema)**
 Why JSON Schema?
 
+ ###  • **[Schema-Driven Development](/docs/json-topic/Schema-Driven-Development)**
+What is use of `JSON-Schema`?

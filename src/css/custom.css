@@ -4,41 +4,6 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
-@font-face {
-  font-family: "ArcelikTurkishBigCaps";
-  src: url("/fonts/ArcelikTurkishBigCaps.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "ArcelikTurkishSmallCaps";
-  src: url("/fonts/ArcelikTurkishSmallCaps.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Batman";
-  src: url("/fonts/Batman.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "DemiLovato";
-  src: url("/fonts/DemiLovato.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "EvilDead";
-  src: url("/fonts/EvilDead.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "PokemonSolid";
-  src: url("/fonts/PokemonSolid.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "PokemonHollow";
-  src: url("/fonts/PokemonHollow.ttf") format("truetype");
-}
-
 @import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
 
 svg path {
