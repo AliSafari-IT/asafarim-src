@@ -30,7 +30,7 @@ module.exports = {
           position: 'right',
         },
         {
-          to:'/eula', position:'right', label:"EULA"
+          to: '/eula', position: 'right', label: "EULA"
         },
       ],
     },
@@ -69,6 +69,14 @@ module.exports = {
             {
               label: 'GitHub',
               href: 'https://github.com/AliSafari-IT/my-asafarim-site',
+            },
+            {
+              label: 'EULA',
+              to: '/eula',
+            },
+            {
+              label: 'Contact',
+              to: '/ContactUs',
             },
           ],
         },
