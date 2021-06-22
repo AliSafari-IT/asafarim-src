@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1950 
 title: "JSON Serialization"
+slug: "../serialization"
 ---
 
 ## JSON and serialization

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1350 
 title: "MIME/Media/Content Type"
+slug: "../content-type-mime"
 ---
 
 ## Internet media type
