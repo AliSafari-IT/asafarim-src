@@ -64,4 +64,13 @@ clientCode();
  <form action="https://refactoring.guru/design-patterns/singleton" method="get" target="_blank">
     <button type="submit" class="btn btn-danger active">Learn more about Singleton →</button>
  </form>
+ <br />
 </div>
+
+:::info Applicability
+Use the Singleton pattern when you need stricter control over global variables. For example, a single instance available to all clients like a single database object shared by different parts of the program.
+:::
+
+:::tip Note that 
+You can always adjust this limitation and allow creating any number of Singleton instances. The only piece of code that needs changing is the body of the getInstance method.
+:::
