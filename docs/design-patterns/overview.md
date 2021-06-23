@@ -5,11 +5,11 @@ title: "Overview"
 
 ## What’s a design pattern?
 
-Design patterns are sort of blueprints that by customization you can solve a recurring design problem. [[Read More](https://refactoring.guru/design-patterns/what-is-pattern)]
+Design patterns are sort of blueprints that by customization you can solve a recurring design problem. [[Read More](https://refactoring.guru/design-patterns/book)]
 
 ## Catalog of design patterns
 
-The catalog of Gang-of-Four ([GOF](https://refactoring.guru/design-patterns/catalog)) patterns:
+The catalog of Gang-of-Four (the same refernce as mentioned above) classifies the design patterns as follows:
 <table>
 <tr>
 <th>Creational patterns</th>   <th>Structural patterns</th>   <th>Behavioral patterns</th>

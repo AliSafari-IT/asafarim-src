@@ -5,7 +5,7 @@ title: "Singleton Pattern"
 
 Singleton is a creational design pattern that restricts the instantiation of a class to one "single" instance by providing a single point of access to the class for any other code. This is useful when exactly one object is needed to coordinate actions across the system, but it is frequently used in scenarios where it is not beneficial, introduces unnecessary restrictions in situations where a sole instance of a class is not actually required. This makes the singleton as an antipattern architecture. That's why, its usage trend is declining. 
 
-The following [example](https://refactoring.guru/design-patterns/singleton/typescript/example#example-0--index-ts) illustrates the structure of the Singleton design pattern:
+The following example illustrates the structure of the Singleton design pattern:
 
 ```ts title="index.ts: Singleton Conceptual example"
 /**
@@ -61,7 +61,7 @@ function clientCode() {
 clientCode();
 ```
 <div className="text-center">
- <form action="https://refactoring.guru/design-patterns/singleton" method="get" target="_blank">
+ <form action="https://refactoring.guru/design-patterns/book" method="get" target="_blank">
     <button type="submit" class="btn btn-danger active">Learn more about Singleton →</button>
  </form>
  <br />
