@@ -7,6 +7,7 @@ import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { Box, Heading, Text } from 'rebass'
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
