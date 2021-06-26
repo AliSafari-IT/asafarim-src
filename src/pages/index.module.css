@@ -24,6 +24,30 @@
   justify-content: center;
 }
 
+.hero {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  place-content: center;
+}
+
+.section {
+  margin: 10rem;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureImage {
+  height: 200px;
+  width: 200px;
+}
+
 .buttonTopics {
   display: flex;
   align-items: center;

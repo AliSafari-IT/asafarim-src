@@ -10,40 +10,6 @@ module.exports = {
   organizationName: 'ASAFARIM-IT', // Usually your GitHub org/user name.
   projectName: 'asafarim-src', // Usually your repo name.
   themeConfig: {
-    colorMode: {
-      // "light" | "dark"
-      defaultMode: 'light',
-
-      // Hides the switch in the navbar
-      // Useful if you want to support a single color mode
-      disableSwitch: false,
-
-      // Should we use the prefers-color-scheme media-query,
-      // using user system preferences, instead of the hardcoded defaultMode
-      respectPrefersColorScheme: false,
-
-      // Dark/light switch icon options
-      switchConfig: {
-        // Icon for the switch while in dark mode
-        // darkIcon: '🌙', // 🌑 🌒 🌓 🌔 🌕 🌖 🌗 🌘 🌑
-        darkIcon: '🌓',
-
-        // CSS to apply to dark icon,
-        // React inline style object
-        // see https://reactjs.org/docs/dom-elements.html#style
-        darkIconStyle: {
-          marginLeft: '2px',
-        },
-
-        // Unicode icons such as '\u2600' will work
-        // Unicode with 5 chars require brackets: '\u{1F602}'
-        lightIcon: '🌗',
-
-        lightIconStyle: {
-          marginLeft: '2px',
-        },
-      },
-    },
     navbar: {
       title: 'ASAFARIM',
       logo: {
@@ -59,7 +25,7 @@ module.exports = {
         },
         { to: '/blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/AliSafari-IT/my-asafarim-site',
+          href: 'https://github.com/AliSafari-IT/asafarim-src',
           label: 'GitHub',
           position: 'right',
         },
@@ -67,6 +33,10 @@ module.exports = {
           to: '/eula', position: 'right', label: "EULA"
         },
       ],
+    },
+    prism: {
+        theme: require('prism-react-renderer/themes/github'),
+        darkTheme: require('prism-react-renderer/themes/dracula'),
     },
     footer: {
       style: 'light',
@@ -115,12 +85,25 @@ module.exports = {
           ],
         },
         {
-          title: 'Recent Updates',
-          items: [],
-        },
+          title: 'Connect',
+          items: [{
+                  label: 'LinkedIn',
+                  href: 'https://www.linkedin.com/in/ali-safari-m/',
+              },
+              {
+                  label: 'Twitter',
+                  href: 'https://twitter.com/asafarim',
+              },
+          ],
+      },
       ],
       copyright: `Copyright © 2020-${new Date().getFullYear()} ASAFARIM, Inc.<br/>
       Learning is an experience, everything else is just information. (Albert Einstein)`,
+    },
+    googleAnalytics: {
+        trackingID: 'G-5C5QXFF5ZX',
+        // Optional fields.
+        anonymizeIP: true, // Should IPs be anonymized?
     },
   },
   presets: [
@@ -129,13 +112,13 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
+          // my repo.
           editUrl:
             'https://github.com/AliSafari-IT/asafarim-src/blob/main',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
+          // my repo.
           editUrl:
             'https://github.com/AliSafari-IT/asafarim-src/blob/main',
         },
@@ -145,4 +128,18 @@ module.exports = {
       },
     ],
   ],
+  stylesheets: [
+      'https://fonts.googleapis.com/css?family=Sen|Source+Code+Pro',
+      'https://at-ui.github.io/feather-font/css/iconfont.css'
+  ],
+  plugins: [
+      [
+          '@docusaurus/plugin-sitemap',
+          {
+              changefreq: 'weekly',
+              priority: 0.5,
+          },
+      ],
+  ],
+
 };

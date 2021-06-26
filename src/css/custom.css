@@ -9,7 +9,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Architects+Daughter&family=Cabin+Sketch:wght@700&family=Carter+One&family=Chewy&family=Concert+One&family=Fugaz+One&family=Gloria+Hallelujah&family=Kaushan+Script&family=Knewave&family=Londrina+Solid:wght@900&family=Pacifico&family=Permanent+Marker&family=Skranji:wght@700&display=swap');
 
 svg path {
-  color: #495eb8;
+  color: #6195f5;
   fill: currentcolor;
 }
 
@@ -64,7 +64,7 @@ svg path {
   --ifm-code-font-size: 95%;
 } */
 
-:root {
+/* :root {
   --ifm-color-primary: #495eb8;
   --ifm-color-primary-dark: rgb(33, 175, 144);
   --ifm-color-primary-darker: rgb(31, 165, 136);
@@ -73,6 +73,66 @@ svg path {
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
+} */
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 79, 99);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/****************************************************************************/
+:root {
+  --ifm-color-primary: #495eb8;
+  --ifm-font-base-color: #021d3d;
+  --ifm-color-primary-dark: #495eb8;
+  --ifm-color-primary-darker: #3345DF;
+  --ifm-color-primary-darkest: #3A2ABF;
+  --ifm-color-primary-light: #308ce7;
+  --ifm-color-primary-lighter: #6DD3FF;
+  --ifm-color-primary-lightest: #86F3FF;
+  --ifm-code-font-size: 95%;
+  --ifm-global-radius: 0.4rem;
+  --ifm-heading-font-family: Sen, var(--ifm-font-family-base);
+  --ifm-font-family-base: Sen, -apple-system, BlinkMacSystemFont, sans-serif;
+  --ifm-navbar-background-color: var(--ifm-color-primary);
+  --ifm-navbar-link-color: white;
+  --ifm-navbar-link-hover-color: #eef4ff;
+  --ifm-footer-background-color: #495eb8;
+  --ifm-color-primary-rgb: 40, 217, 242;
+  --ifm-footer-link-color: white;
+  --ifm-footer-link-hover-color: white;
+  --ifm-footer-title-color: rgb(136, 243, 225);
+  --ifm-footer-color: rgb(226, 247, 152);
+  --ifm-font-weight-semibold: 400;
+  --ifm-font-size-base: 1rem;
+  --ifm-panel-background-color: var(--ifm-color-primary);
+  --ifm-panel-background-color-rgb: 255, 255, 255;
+  --ifm-panel-background-color-solid: #FFFFFF;
+  --ifm-panel-background-color-active: #eef4ff;
+  --ifm-panel-background-color-active-solid: #eef4ff;
+  --ifm-table-stripe-background: rgb(241, 245, 222);
+  --ifm-link-hover-decoration: none;
+  --ifm-color-success: #00d0a0;
+  --ifm-color-success-dark: #00B9B6;
+  --ifm-color-success-darker: #00B9B6;
+  --ifm-color-success-darkest: #00B9B6;
+  --ifm-color-success-light: #22D98C;
+  --ifm-color-success-lighter: #44E280;
+  --ifm-color-success-lightest: #66E97D;
+  --ifm-link-color: #3d61e0;
 }
 
 .docusaurus-highlight-code-line {
@@ -82,4 +142,85 @@ svg path {
   padding: 0 var(--ifm-pre-padding);
 }
 
+.navbar-sidebar .menu {
+  --ifm-menu-color: rgb(209, 250, 246);
+}
 
+pre {
+  border-color: var(--ifm-color-emphasis-300);
+  border-radius: var(--ifm-pagination-nav-border-radius);
+  border-style: solid;
+  border-width: 1px;
+}
+
+header h1 {
+  font-family: Sen, var(--ifm-font-family-base);
+  font-size: 2.5em;
+  margin-bottom: 0;
+}
+
+.navbar__title {
+  font-size: 2.25rem;
+}
+
+.navbar__link {
+  font-size: 1rem;
+  font-family: var(--ifm-heading-font-family);
+}
+
+.navbar__toggle {
+  color: rgb(248, 250, 164);
+  fill: currentColor;
+}
+
+.learn-more {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.contents {
+  font-size: 0.95rem;
+}
+
+.cta-btn {
+  border-radius: 2em;
+  margin-right: 1em;
+  min-width: 240px;
+}
+
+@media (max-width: 480px) {
+  .cta-btn {
+      margin-right: 0;
+      margin-top: 0.5em;
+  }
+}
+
+figure {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+figcaption {
+  text-align: center;
+  color: var(--ifm-menu-color);
+}
+
+figcaption::before {
+  content: '🔎';
+}
+
+footer .footer__link-item {
+  opacity: .5;
+  text-decoration: none;
+  transition: opacity 0.2s linear;
+  font-family: Sen, var(--ifm-font-family-base);
+  font-weight: 600;
+}
+
+footer .container .text {
+  color: rgb(229, 243, 32);
+  font-weight: 700;
+}
