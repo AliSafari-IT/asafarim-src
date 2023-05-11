@@ -34,10 +34,6 @@ module.exports = {
         },
       ],
     },
-    prism: {
-        theme: require('prism-react-renderer/themes/github'),
-        darkTheme: require('prism-react-renderer/themes/dracula'),
-    },
     footer: {
       style: 'light',
       links: [
@@ -78,10 +74,6 @@ module.exports = {
               label: 'EULA',
               to: '/eula',
             },
-            {
-              label: 'Contact',
-              to: '/ContactUs',
-            },
           ],
         },
         {
@@ -94,17 +86,17 @@ module.exports = {
                   label: 'Twitter',
                   href: 'https://twitter.com/asafarim',
               },
+              {
+                label: 'Contact Us',
+                to: '/ContactUs',
+              },
           ],
       },
       ],
       copyright: `Copyright © 2020-${new Date().getFullYear()} ASAFARIM, Inc.<br/>
       Learning is an experience, everything else is just information. (Albert Einstein)`,
     },
-    googleAnalytics: {
-        trackingID: 'G-5C5QXFF5ZX',
-        // Optional fields.
-        anonymizeIP: true, // Should IPs be anonymized?
-    },
+    
   },
   presets: [
     [
@@ -116,6 +108,11 @@ module.exports = {
           editUrl:
             'https://github.com/AliSafari-IT/asafarim-src/blob/main',
         },
+        googleAnalytics: {
+          trackingID: 'G-5C5QXFF5ZX',
+          // Optional fields.
+          anonymizeIP: true, // Should IPs be anonymized?
+      },
         blog: {
           showReadingTime: true,
           // my repo.
@@ -134,8 +131,7 @@ module.exports = {
   ],
   plugins: [
       [
-          '@docusaurus/plugin-sitemap',
-          {
+          '@docusaurus/plugin-content-docs',{
               changefreq: 'weekly',
               priority: 0.5,
           },
