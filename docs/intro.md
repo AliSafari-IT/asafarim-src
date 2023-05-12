@@ -22,8 +22,11 @@ What is use of `JSON-Schema`?
  --------------------------------
 
 ##### **React**
-• **[Axios](/docs/react/Axios/axios)**
+• **[Axios](/docs/react/axios)**
  --------------------------------
 
-##### **Static Site Generators**
+##### **Azure DevOps**
+-    **[Azure DevOps Server](/docs/azuredevops/intro)**
+-    **[Azure DevOps Services](/docs/azuredevops/azure-devops-services)**
+-    **[Azure Pipelines](/docs/azuredevops/azure-pipelines)**
 

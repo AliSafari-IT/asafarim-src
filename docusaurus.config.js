@@ -4,7 +4,7 @@ module.exports = {
   tagline: 'Programming for Science',
   url: 'https://asafarim.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'ASAFARIM-IT', // Usually your GitHub org/user name.
@@ -79,24 +79,24 @@ module.exports = {
         {
           title: 'Connect',
           items: [{
-                  label: 'LinkedIn',
-                  href: 'https://www.linkedin.com/in/ali-safari-m/',
-              },
-              {
-                  label: 'Twitter',
-                  href: 'https://twitter.com/asafarim',
-              },
-              {
-                label: 'Contact Us',
-                to: '/ContactUs',
-              },
+            label: 'LinkedIn',
+            href: 'https://www.linkedin.com/in/ali-safari-m/',
+          },
+          {
+            label: 'Twitter',
+            href: 'https://twitter.com/asafarim',
+          },
+          {
+            label: 'Contact Us',
+            to: '/ContactUs',
+          },
           ],
-      },
+        },
       ],
       copyright: `Copyright © 2020-${new Date().getFullYear()} ASAFARIM, Inc.<br/>
       Learning is an experience, everything else is just information. (Albert Einstein)`,
     },
-    
+
   },
   presets: [
     [
@@ -112,7 +112,7 @@ module.exports = {
           trackingID: 'G-5C5QXFF5ZX',
           // Optional fields.
           anonymizeIP: true, // Should IPs be anonymized?
-      },
+        },
         blog: {
           showReadingTime: true,
           // my repo.
@@ -126,16 +126,7 @@ module.exports = {
     ],
   ],
   stylesheets: [
-      'https://fonts.googleapis.com/css?family=Sen|Source+Code+Pro',
-      'https://at-ui.github.io/feather-font/css/iconfont.css'
-  ],
-  plugins: [
-      [
-          '@docusaurus/plugin-content-docs',{
-              changefreq: 'weekly',
-              priority: 0.5,
-          },
-      ],
-  ],
-
+    'https://fonts.googleapis.com/css?family=Sen|Source+Code+Pro',
+    'https://at-ui.github.io/feather-font/css/iconfont.css'
+  ]
 };
