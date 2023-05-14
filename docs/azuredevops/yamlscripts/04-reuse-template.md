@@ -93,7 +93,6 @@ By following these steps, you can reuse the same YAML template across multiple A
 In Azure DevOps, permissions are inherited from the project level down to the repository level. This means that if you grant a user or group permission to the project, they will automatically have permission to all the repositories in the project. If you want to restrict access to a specific repository, you will need to remove the user or group from the project-level permissions and grant them permissions at the repository level instead.
 :::
 
-
 :::note 2
 Similarly, permissions are inherited from the repository level down to the branch level. This means that if you grant a user or group permission to a repository, they will automatically have permission to all the branches in the repository. If you want to restrict access to a specific branch, you will need to remove the user or group from the repository-level permissions and grant them permissions at the branch level instead.
 :::
