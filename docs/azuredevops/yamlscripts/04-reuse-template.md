@@ -54,4 +54,50 @@ This pipeline triggers on the main branch, and defines a job called BuildAndTest
 
 When this pipeline runs, the steps defined in the template will be executed as part of the pipeline, with the specified Node.js version and any other parameter values that are passed in. You can reuse this pipeline with different parameter values or on different branches, without having to copy and paste the steps each time.
 
+## YAML templates across Azure DevOps projects
+To reuse YAML templates across Azure DevOps projects, you can use the following steps:
 
+###   1. Create a YAML template in a Git repository
+Create a YAML template file in a Git repository that is accessible to all the Azure DevOps projects that you want to reuse the template in. You can create a new Git repository in Azure DevOps or use an existing repository.
+
+###   2. Reference the YAML template in pipelines
+In each Azure DevOps project where you want to reuse the template, reference the YAML template in your pipeline YAML files using the template keyword and the Git repository URL and path to the template file. 
+
+Here's an example:
+```yaml
+# azure-pipelines.yml
+
+trigger:
+  - main
+
+jobs:
+  - job: BuildAndTestNodeApp
+    displayName: 'Build and test Node.js app'
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - template: https://github.com/MyOrganization/MyRepo/nodejs-build-test.yml@main
+      parameters:
+        nodeVersion: '14.x'
+
+```
+In this example, the template keyword is used to reference the nodejs-build-test.yml template file in the MyRepo repository in the MyOrganization organization. The @main suffix indicates that the pipeline should use the main branch of the Git repository.
+
+###   3. Grant permission to access the Git repository
+Make sure that all the Azure DevOps projects that need to access the Git repository where the YAML template is stored have permission to access the repository. You can manage repository permissions in the Azure DevOps project settings.
+
+By following these steps, you can reuse the same YAML template across multiple Azure DevOps projects, which can save time and reduce duplication of effort. Any changes to the YAML template in the Git repository will be automatically reflected in all the pipelines that reference the template.
+
+
+:::note 1
+In Azure DevOps, permissions are inherited from the project level down to the repository level. This means that if you grant a user or group permission to the project, they will automatically have permission to all the repositories in the project. If you want to restrict access to a specific repository, you will need to remove the user or group from the project-level permissions and grant them permissions at the repository level instead.
+:::
+
+
+:::note 2
+Similarly, permissions are inherited from the repository level down to the branch level. This means that if you grant a user or group permission to a repository, they will automatically have permission to all the branches in the repository. If you want to restrict access to a specific branch, you will need to remove the user or group from the repository-level permissions and grant them permissions at the branch level instead.
+:::
+
+:::note 3
+To avoid accidentally granting unnecessary permissions to users or groups, it's important to carefully manage permissions at each level of the hierarchy and only grant the permissions that are required for each user or group to do their job.
+:::
