@@ -2,11 +2,40 @@
 sidebar_position: 1
 ---
 
-# Topics Intro
+# Outline
+Following shows what information each section will contain, and in what order:
 
-Topics that are covered in this section are as follows.
+## 1. **Software development**
+    -   Requirements gathering → outlines the functionality of the software,
 
-##### **JSON**
+    -   Planning → outlines the scope of the project,
+
+    -   Design  → outlines the architecture and structure of the software
+        +   UML
+
+    -   Development
+        +   Coding
+        +   Testing
+        +   Deployment
+        +   Maintenance
+            ►   Version Control Software
+                •   Git
+                •   Subversion (SVN)
+                •   Mercurial
+                •   Perforce
+                •   ...
+
+    -Tools & Devices
+        +   IDE
+        +   SDK
+        +   Debugging Tools
+        +   Virtual Machines and Containers
+        +   Cloud Services
+        
+
+
+
+    -   
 • **[Json Intro](/docs/json/json-overview/intro)**
  An intro about JavaScript Object Notation (*JSON*) and who invented it? In terms of performance, which one is faster, `JSON` or `XML`?
 
@@ -18,7 +47,7 @@ What is use of `JSON-Schema`?
  --------------------------------
 
 ##### **NX Workspace**
-**[What, Why and How of NX](/docs/nx-workspace/nx-Basics)**
+**[What, Why and How of NX](/docs/development-env-tools/frameworks-libraries/nx-workspace/nx-Basics)**
  --------------------------------
 
 ##### **React**
