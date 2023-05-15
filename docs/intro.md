@@ -24,6 +24,9 @@ Following shows what information each section will contain, and in what order:
                 •   Mercurial
                 •   Perforce
                 •   ...
+        +   automation
+            ►   Azure DevOps
+            
 
     -Tools & Devices
         +   IDE
@@ -31,7 +34,7 @@ Following shows what information each section will contain, and in what order:
         +   Debugging Tools
         +   Virtual Machines and Containers
         +   Cloud Services
-        
+
 
 
 
