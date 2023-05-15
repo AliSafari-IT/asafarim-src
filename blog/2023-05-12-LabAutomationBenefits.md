@@ -5,7 +5,7 @@ author: Ali Safari
 author_title: Sci. App Dev. @ XiTechniX
 author_url: https://github.com/AliSafari-IT
 author_image_url: https://avatars.githubusercontent.com/u/58768873?s=300&v=4
-tags: [automation, technology, 'Data Management']
+tags: [automation, 'lab automation', technology, 'Data Management']
 ---
 
 Lab automation is the process of using technology to automate laboratory processes and workflows. Here are some general benefits of lab automation:
