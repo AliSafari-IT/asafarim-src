@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2 
 title: "Json: Schema"
-slug: "sch"
+slug: "/json-schema"
 ---
 ## What is JSON Schema?
 Json is the most popular format for exchanging data on the web. 

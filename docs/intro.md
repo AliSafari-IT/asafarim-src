@@ -13,52 +13,24 @@ Following shows what information each section will contain, and in what order:
     -   Design  → outlines the architecture and structure of the software
         +   UML
 
-    -   Development
         +   Coding
-        +   Testing
-        +   Deployment
-        +   Maintenance
-            ►   Version Control Software
-                •   Git
-                •   Subversion (SVN)
-                •   Mercurial
-                •   Perforce
-                •   ...
-        +   automation
+            ► Codebase
+            ► Code writing
+            ► Code-based testing
+            ► Error-Debugging
+            ► Code-Refactoring
+            ► Code-Documenting
+        +   Testing stage
+        
+        +   CICD automation
             ►   Azure DevOps
 
 ## 2. **Tools, Devices and Services**
-
-    -   IDE
-
-    -   SDK
-
-    -   Debugging Tools
-
-    -   Virtual Machines and Containers
-
-    -   Cloud Services
-
-• **[Json Intro](/docs/json/json-overview/intro)**
- An intro about JavaScript Object Notation (*JSON*) and who invented it? In terms of performance, which one is faster, `JSON` or `XML`?
-
-• **[Json Schema](/docs/json/json-overview/sch)**
-Why JSON Schema?
-
-• **[Schema-Driven Development](/docs/json/json-overview/sch-dev)**
-What is use of `JSON-Schema`?
- --------------------------------
-
-##### **NX Workspace**
-**[What, Why and How of NX](/docs/development-env-tools/frameworks-libraries/nx-workspace/nx-Basics)**
- --------------------------------
-
-##### **React**
-• **[Axios](/docs/react/axios)**
- --------------------------------
-
-##### **Azure DevOps**
--    **[Azure DevOps Server](/docs/azuredevops/intro)**
--    **[Azure DevOps Services](/docs/azuredevops/azure-devops-services)**
--    **[Azure Pipelines](/docs/azuredevops/azure-pipelines)**
-
+        +   Developer tools
+            ►   IDE & SDK
+            ►   Debugging Tools
+            ►   Version Control Software
+            ►   Programming languages
+            ►   Frameworks & Libraries
+            ►   Virtual Machines and Containers
+            ►   Cloud Services
