@@ -1,8 +1,8 @@
 ---
 sidebar_position: 1
+title: "Outline"
 ---
 
-# Outline
 Following shows what information each section will contain, and in what order:
 
 ## 1. **Software development**
@@ -26,19 +26,19 @@ Following shows what information each section will contain, and in what order:
                 •   ...
         +   automation
             ►   Azure DevOps
-            
 
-    -Tools & Devices
-        +   IDE
-        +   SDK
-        +   Debugging Tools
-        +   Virtual Machines and Containers
-        +   Cloud Services
+## 2. **Tools, Devices and Services**
 
+    -   IDE
 
+    -   SDK
 
+    -   Debugging Tools
 
-    -   
+    -   Virtual Machines and Containers
+
+    -   Cloud Services
+
 • **[Json Intro](/docs/json/json-overview/intro)**
  An intro about JavaScript Object Notation (*JSON*) and who invented it? In terms of performance, which one is faster, `JSON` or `XML`?
 
