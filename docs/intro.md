@@ -5,7 +5,7 @@ title: "Outline"
 
 Following shows what information each section will contain, and in what order:
 
-## 1. **Software development**
+## 1. Software development
     -   Requirements gathering → outlines the functionality of the software,
 
     -   Planning → outlines the scope of the project,
@@ -25,7 +25,7 @@ Following shows what information each section will contain, and in what order:
         +   CICD automation
             ►   Azure DevOps
 
-## 2. **Tools, Devices and Services**
+## 2. Tools, Devices and Services
         +   Developer tools
             ►   IDE & SDK
             ►   Debugging Tools

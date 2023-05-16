@@ -40,7 +40,7 @@ Let's see how to [Create a page](/create-a-page).
 Let's see how to [Create a page](./create-a-page.md).
 ```
 
-**Result:** Let's see how to [Create a page](./create-a-page.md).
+**Result:** Let's see how to [Create a page](create-a-page).
 
 ### Images
 

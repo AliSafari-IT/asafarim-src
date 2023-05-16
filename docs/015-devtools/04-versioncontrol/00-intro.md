@@ -9,4 +9,4 @@ The primary function of a VCS is to keep track of changes made to files over tim
 
 VCS also provide a way for developers to collaborate on a project, by allowing multiple developers to work on the same codebase simultaneously. Changes made by different developers can be merged together, and conflicts can be resolved by comparing and combining different versions of the code.
 
-Some popular VCS include Git, SVN, and Mercurial. These tools provide a range of features and capabilities for managing code, including branching and merging, tagging and labeling, and code review and collaboration. They are an essential tool for modern software development, and are used in both open-source and commercial software projects.
+Some popular VCS include [Git](/learn/git), SVN, and Mercurial. These tools provide a range of features and capabilities for managing code, including branching and merging, tagging and labeling, and code review and collaboration. They are an essential tool for modern software development, and are used in both open-source and commercial software projects.
