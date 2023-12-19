@@ -7,8 +7,8 @@ module.exports = {
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'ASAFARIM-IT', // Usually your GitHub org/user name.
-  projectName: 'asafarim-src', // Usually your repo name.
+  organizationName: 'ASAFARIM-IT',
+  projectName: 'asafarim-src', 
   themeConfig: {
     navbar: {
       title: 'ASAFARIM',
@@ -24,6 +24,7 @@ module.exports = {
           label: 'Code Topics',
         },
         { to: '/blog', label: 'Blog', position: 'left' },
+        { to: '/projects', label: 'Projects', position: 'left' },
         {
           href: 'https://github.com/AliSafari-IT/asafarim-src',
           label: 'GitHub',

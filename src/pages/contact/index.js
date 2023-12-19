@@ -19,7 +19,8 @@ class App extends React.Component {
   handleSubmit = (e) => {
     e.preventDefault(); // Prevents default refresh by the browser
     emailjs.init('user_lEHCRP2fqcxf8XhRIYCwO');
-    emailjs.sendForm(`service_11zzlmc`, `template_jm8g597`, e.target, `user_lEHCRP2fqcxf8XhRIYCwO`)
+    //emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+    emailjs.sendForm(`service_9m1uuup`, `template_1h05gmc`, e.target, `t_0Usl2NzZjKqTbVy`)
     .then((result) => {
     alert("Message Sent, We will get back to you shortly", result.text);
     },
